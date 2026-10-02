@@ -1,0 +1,6 @@
+@SESMT.API_HostAddress = http://localhost:5047
+
+GET {{SESMT.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

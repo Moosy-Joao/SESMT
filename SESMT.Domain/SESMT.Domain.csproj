@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Entity\" />
+    <Folder Include="Common\AggregateRoot\" />
+    <Folder Include="Common\IDomainEvent\" />
+    <Folder Include="Common\Result\" />
+    <Folder Include="Modules\IdentityAcess\" />
+    <Folder Include="Modules\Documents\" />
+    <Folder Include="Modules\Notifications\" />
+    <Folder Include="Modules\Audit\" />
+    <Folder Include="Modules\Workforce\" />
+    <Folder Include="Modules\Organization\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Events\" />
+    <Folder Include="ValueObjects\" />
+  </ItemGroup>
+
+</Project>

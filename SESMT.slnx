@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SESMT.API/SESMT.API.csproj" />
+  <Project Path="SESMT.Application/SESMT.Application.csproj" />
+  <Project Path="SESMT.Domain/SESMT.Domain.csproj" />
+  <Project Path="SESMT.Infrastructure/SESMT.Infrastructure.csproj" />
+  <Project Path="SESMT.Tests/SESMT.Tests.csproj" />
+</Solution>

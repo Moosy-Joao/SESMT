@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SESMT.Domain\SESMT.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Behaviors\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Models\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Modules\IdentityAcess\" />
+    <Folder Include="Modules\Documents\" />
+    <Folder Include="Modules\Notifications\" />
+    <Folder Include="Modules\Audits\" />
+    <Folder Include="Modules\Workforce\" />
+    <Folder Include="Modules\Organization\" />
+  </ItemGroup>
+
+</Project>
